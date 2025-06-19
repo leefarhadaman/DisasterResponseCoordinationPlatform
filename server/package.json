@@ -1,0 +1,35 @@
+{
+  "name": "disaster-coordination-server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node test-api.js",
+    "test:api": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["disaster", "coordination", "platform", "mern"],
+  "author": "",
+  "license": "ISC",
+  "description": "Backend for Disaster Response Coordination Platform",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "pino": "^9.7.0",
+    "pino-pretty": "^13.0.0",
+    "socket.io": "^4.8.1",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.3",
+    "nodemon": "^3.1.10"
+  }
+}
